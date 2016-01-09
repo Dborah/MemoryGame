@@ -1,0 +1,64 @@
+body{
+	font-family: "Roboto";
+	background-color: #FAFAFA;	
+	margin: 0% auto;
+	text-align: center;
+}
+
+
+.logo{
+	font-weight: bold;
+	font-size: 35px;
+	color: #424242;
+	margin: 5% auto;
+		
+}
+
+.container{
+	max-width: 80%;
+	max-height: 60%;
+	margin:  8% auto;
+	
+}
+
+.block-item{
+	background-color: #006064;
+	display:inline-block;
+	margin: 2px auto;	
+	padding-bottom: 5%;
+	width: 20%;	
+}
+
+img{
+	margin-top:20%;
+	margin-left:10%;
+}
+
+.github-corner:hover
+              .octo-arm{animation:octocat-wave 560ms
+              ease-in-out}@keyframes
+              octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media
+              (max-width:500px){.github-corner:hover
+              .octo-arm{animation:none}.github-corner
+              .octo-arm{animation:octocat-wave 560ms
+              ease-in-out}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,7 +19,7 @@ body{
 	margin:  13% auto;	
 }
 
-button{
+.levels{
 	display: block;
 	border-radius: 3px;  
     margin: 2% auto;
@@ -40,6 +40,12 @@ button{
 a{
 	text-decoration: none;
 }
+
+.levels:hover{
+		background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.10));
+		cursor: pointer;
+}
+
 
 
 
