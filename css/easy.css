@@ -34,6 +34,14 @@ img{
 	margin-left:10%;
 }
 
+.block-item:hover{
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.10));
+	cursor: pointer;
+	box-shadow: 0 0 5px #333;
+  	transition: 0.2s;
+  	transform: scale(1.1); 	
+}
+
 .github-corner:hover
               .octo-arm{animation:octocat-wave 560ms
               ease-in-out}@keyframes
