@@ -33,11 +33,12 @@ body{
 img{
 	margin-top:20%;
 	margin-left:10%;
+	cursor: pointer;
 }
 
 .block-item:hover{
 	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.10));
-	cursor: pointer;
+	cursor: default;
 	box-shadow: 0 0 5px #333;
   	transition: 0.2s;
   	transform: scale(1.1); 	
