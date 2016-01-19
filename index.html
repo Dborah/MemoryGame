@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-      <title>Memory Game!</title>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" href="css/memory.css">
+		<title>Memory Game</title>
+	</head>
+	<body onload="setup();">
+		<main>
+			 <nav>
+	            <div class="logo">
+	              <span>Memory Game!</span>         
+	            </div> 
+          	</nav>
 
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+          	 <section>
+        				<div id="menu"></div>
+        				<div id="status"></div>
+        				<div id="gameboard"></div>
+			       </section>
 
-    <body>
-      <main>
-          <nav>
-            <div class="logo">
-              <span>Memory Game!</span>         
-            </div> 
-          </nav>
-
-          <section>
-            <div class="container">
-              <a href="easy.html"> <button class="levels">Easy</button></a>
-              <a href="medium.html"> <button class="levels">Medium</button></a>
-              <a href="hard.html"> <button class="levels">Hard</button></a>
-            </div>
-          </section>
-
-          <a href="https://github.com/Dborah/MemoryGame" class="github-corner">
+			<a href="https://github.com/Dborah/MemoryGame" class="github-corner">
               <svg width="80"height="80" viewBox="0 0 250 250" style="fill:#424242;
                       color:#F7F7F7; position: absolute; top: 0; border: 0; right:0;">
                       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0Z"></path>
@@ -49,18 +45,8 @@
                         fill="currentColor"class="octo-body">
                     </path>
               </svg>
-          </a>
-          <style>.github-corner:hover
-              .octo-arm{animation:octocat-wave 560ms
-              ease-in-out}@keyframes
-              octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media
-              (max-width:500px){.github-corner:hover
-              .octo-arm{animation:none}.github-corner
-              .octo-arm{animation:octocat-wave 560ms
-              ease-in-out}}
-          </style>
-             
-      </main>
-    </body>
-      
-  </html>
+          </a> 
+		</main>
+		<script type="text/javascript" src="js/memory.js"></script>
+	</body>
+</html>
