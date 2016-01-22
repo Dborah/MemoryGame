@@ -7,7 +7,7 @@ var moves = 0;
 var status;
 
 function setup(){
-	//createMenu();
+	createMenu();
 	//createStatus();
 	createGameboard();
 	assignCardPairs();
@@ -22,7 +22,7 @@ function createMenu(){
 	resetMenu = document.createElement("div");
 	resetMenu.id = "resetmenu";
 	resetMenu.setAttribute("class", "menu");
-	resetMenu.innerHTML = "reset";
+	resetMenu.innerHTML = "Reset";
 	resetMenu.addEventListener("click", reset, false);
 	menuDiv.appendChild(resetMenu);
 }

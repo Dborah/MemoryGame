@@ -18,6 +18,7 @@ body {
 	.card, .card-reset {
 		width: 75px;
 		height: 100px;
+
 	}
 	.card-back, .card-back-active, .card-front, .card-front-active {
 		border-radius: 5px;
@@ -49,6 +50,7 @@ body {
 	.card, .card-reset {
 		width: 100px;
 		height: 133px;
+
 	}
 	.card-back, .card-back-active, .card-front, .card-front-active {
 		border-radius: 10px;
@@ -78,6 +80,7 @@ body {
 
 .card, .card-reset {
 	position: fixed;
+	float: right;
 }
 
 .card-back, .card-back-active {
@@ -159,9 +162,11 @@ body {
     -o-background-size: 100% auto;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-color: #006064 ;
+    float: right;
 }
+
 
 
 #gameboard {background-image: url(../img/block-item.png);
