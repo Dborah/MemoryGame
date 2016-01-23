@@ -8,7 +8,7 @@ var status;
 
 function setup(){
 	createMenu();
-	//createStatus();
+	
 	createGameboard();
 	assignCardPairs();
 	
@@ -31,15 +31,6 @@ function createDifficultyMenu(){
 	dMenu = document.createElement("div");
 	dMenu.id = "dmenu";
 	dMenu.setAttribute("class", "menu");
-	easy = document.createElement("div");
-	easy.id = "easy";
-	dMenu.appendChild(easy);
-	medium = document.createElement("div");
-	medium.id = "medium";
-	dMenu.appendChild(medium);
-	hard = document.createElement("div");
-	hard.id = "hard";
-	dMenu.appendChild(hard);
 	return dMenu;
 }
 
